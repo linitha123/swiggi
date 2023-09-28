@@ -5,19 +5,12 @@ import Header from './Components/Header'
 import { createBrowserRouter } from "react-router-dom";
 import About from './Components/About'
 
-export const appRouter = createBrowserRouter([
-    {
-        path:'/about',
-        element:<About />
-    }
-])
+
 
 function App(){
-
-   
-    return(
+return(
         <div>
-           <Header />
+            <Header />
           <Body />
          </div>
     )
